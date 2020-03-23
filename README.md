@@ -1,8 +1,8 @@
 # nginx-cloudflare-cache
 
-![Docker Build Status](https://img.shields.io/docker/build/ratisbonacoding/nginx-cloudflare-cache)
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/ratisbonacoding/nginx-cloudflare-cache)
 
-This image can be used as a base image for webservers that utilize Cloudflare's cache to reduce traffic hitting the actual server. As this image will be rebuilt when `nginx:alpine` will be rebuilt, this image should stay up-to-date with its parent image.
+This image can be used as a base image for webservers that utilize Cloudflare's cache to reduce traffic hitting the actual server.
 
 ## How it works
 
