@@ -17,7 +17,7 @@ else
       -H "Content-Type: application/json" \
       --data '{"purge_everything":true}')
 
-  if [[ "$response" == *"\"success\":true"* ]]; then
+  if echo "$response" | grep "\"success\":true" > /dev/null; then
     echo_info "successfully purged cache"
   else
     echo_warn "error purging cache"
